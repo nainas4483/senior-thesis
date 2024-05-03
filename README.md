@@ -5,14 +5,20 @@ The ocean makes up about 71\% of the Earth’s surface, with roughly 9\% of that
 
 ## **Repository Structure**
 - Dataset
+   - README
+   - dataset.md (link to dataset)
 - Notebooks
-  - Data Processing
-  - Models
+  - README
+  - data_processing_real.ipynb
+  - thesis_models_real.ipynb
 - README
 
 ## **Requirements**
 - Python 3.12
    - Pandas
    - Numpy
+   - xarray
+   - netCDF4
    - JAX
-   - 
+   - SKLearn
+   - TensorFlow
